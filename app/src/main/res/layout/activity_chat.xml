@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_dark1"
+    android:id="@+id/activity_main"
+    tools:context=".ChatActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/orange">
+
+        <ImageButton
+            android:id="@+id/HomePage"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/orange"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="30dp"
+            android:src="@drawable/home"/>
+
+        <ImageButton
+            android:id="@+id/ContactPage"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/orange"
+            android:layout_marginEnd="30dp"
+            android:src="@drawable/contact"/>
+
+        <ImageButton
+            android:id="@+id/InfoPage"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/orange"
+            android:layout_marginEnd="30dp"
+            android:src="@drawable/info"/>
+
+        <ImageButton
+            android:id="@+id/CallPage"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/orange"
+            android:src="@drawable/support"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/btn_send"
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="65dp"
+            android:background="@drawable/btn_senda"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="@string/send"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/text_laymes"
+        android:layout_width="347dp"
+        android:layout_height="52dp"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        tools:ignore="MissingConstraints">
+
+        <EditText
+            android:id="@+id/messageField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/white"
+            android:backgroundTint="@color/white"
+            android:hint="@string/mesage1"
+            android:textSize="23sp">
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@color/dark_orange"
+            android:text="Привет, все классно"
+            android:textSize="30sp"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:layout_marginStart="149dp"
+            android:background="@color/dark_orange"
+            android:text="Отлично, мы рады"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+    </LinearLayout>
+</RelativeLayout>

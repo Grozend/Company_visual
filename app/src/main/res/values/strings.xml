@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Company_visual</string>
+    <string name="logon">Вход в систему</string>
+    <string name="stroke">Вас приветствует команда Skillaz</string>
+    <string name="stroke_link_reg">©️ Близняков Роман</string>
+    <string name="SingnIn">Войти с логином</string>
+    <string name="Register">Зарегистрироваться</string>
+    <string name="previu">HR система Skillaz для управления персоналом и гибкого развития талантов</string>
+    <string name="a1">Экосистема Skillaz создана, чтобы вы могли комплексно автоматизировать любые HR-процессы.</string>
+    <string name="skillaz">Skillaz — это про HR и для пользователя.</string>
+    <string name="text_we">Мы постоянно думаем о конечных пользователях, об их потребностях и опыте взаимодействия с HR
+        системой. Именно от того, как долго и качественно они работают в Skillaz, зависят в целом основные бизнес-метрики
+        наших клиентов.</string>
+    <string name="FI">Андрей Крылов CEO Skillaz</string>
+    <string name="О_Skillaz">О Skillaz</string>
+    <string name="inf">Компания Skillaz – один из лидеров российского рынка HR-tech и разработчик платформы для 
+        автоматизации процессов управления персоналом</string>
+    <string name="thisi">Skillaz — это:</string>
+    <string name="mnogo_1">Более 170 крутых профессионалов и фанатов своего дела. Мы занимаемся разработкой,
+        внедрением и сопровождением программных продуктов в сфере HR на основе собственных решений.</string>
+    <string name="mnogo_2">Наша платформа помогает автоматизировать найм сотрудников и управление развитием
+        талантов, гибко настраивается под каждого клиента и обеспечивает бесшовные бизнес-процессы в подборе
+        и управлении персоналом.</string>
+    <string name="mnogo_3">Мы работаем с крупнейшими частными и государственными компаниями, лидерами финансовой,
+        энергетической, розничной торговли, транспортной, телекоммуникационной, добывающей и других отраслей.</string>
+    <string name="sotru">Сотрудничаем с</string>
+    <string name="send">▶</string>
+    <string name="mesage1">Введите сообщение...</string>
+    <string name="Email">Email: hello@skillaz.ru</string>
+    <string name="my_Email_gm">Email: romanblizniakov@gmail.com</string>
+    <string name="my_Email_yn">Email: romainblizniakov@yandex.ru</string>
+    <string name="TP">Тех. поддержка: support@skillaz.ru</string>
+    <string name="tel">Тел: 8 (800) 550-38-46</string>
+    <string name="my_tel">Тел: 8 (909) 599-55-23</string>
+    <string name="my_tel_2">Тел: 8 (993) 834-25-14</string>
+</resources>

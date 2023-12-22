@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_dark1"
+    android:id="@+id/info_o_comp"
+    tools:context=".Info_o_kompany">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/orange">
+
+        <ImageButton
+            android:id="@+id/HomePage"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/orange"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="30dp"
+            android:src="@drawable/home"/>
+
+        <ImageButton
+            android:id="@+id/ContactPage"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/orange"
+            android:layout_marginEnd="30dp"
+            android:src="@drawable/contact"/>
+
+        <ImageButton
+            android:id="@+id/InfoPage"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/orange"
+            android:layout_marginEnd="30dp"
+            android:src="@drawable/info"/>
+
+        <ImageButton
+            android:id="@+id/CallPage"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/orange"
+            android:src="@drawable/support"/>
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="667dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    tools:ignore="MissingConstraints">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="35dp"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:text="@string/О_Skillaz"
+                        android:textColor="@color/white"
+                        android:textSize="40sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="35dp"
+                        android:fontFamily="sans-serif"
+                        android:text="@string/inf"
+                        android:textColor="@color/white"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="35dp"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:text="@string/thisi"
+                        android:textColor="@color/white"
+                        android:textSize="40sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="35dp"
+                        android:fontFamily="sans-serif"
+                        android:text="@string/mnogo_1"
+                        android:textColor="@color/white"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="35dp"
+                        android:fontFamily="sans-serif"
+                        android:text="@string/mnogo_2"
+                        android:textColor="@color/white"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="35dp"
+                        android:fontFamily="sans-serif"
+                        android:text="@string/mnogo_3"
+                        android:textColor="@color/white"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="35dp"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:text="@string/sotru"
+                        android:textColor="@color/white"
+                        android:textSize="40sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/white"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="125dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginEnd="20dp"
+                            app:srcCompat="@drawable/magnit"
+                            tools:ignore="MissingConstraints" />
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="125dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginEnd="20dp"
+                            app:srcCompat="@drawable/sber"
+                            tools:ignore="MissingConstraints" />
+
+                        <ImageView
+                            android:layout_width="114dp"
+                            android:layout_height="125dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginEnd="20dp"
+                            app:srcCompat="@drawable/x5_svg"
+                            tools:ignore="MissingConstraints" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/white"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="125dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginEnd="20dp"
+                            app:srcCompat="@drawable/smlt_logo_blue_ru"
+                            tools:ignore="MissingConstraints" />
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="125dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginEnd="20dp"
+                            app:srcCompat="@drawable/sbermark"
+                            tools:ignore="MissingConstraints" />
+
+                        <ImageView
+                            android:layout_width="114dp"
+                            android:layout_height="125dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginEnd="20dp"
+                            app:srcCompat="@drawable/rosatom"
+                            tools:ignore="MissingConstraints" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/white"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="125dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginEnd="20dp"
+                            app:srcCompat="@drawable/rjd"
+                            tools:ignore="MissingConstraints" />
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="125dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginEnd="20dp"
+                            app:srcCompat="@drawable/perek"
+                            tools:ignore="MissingConstraints" />
+
+                        <ImageView
+                            android:layout_width="114dp"
+                            android:layout_height="125dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginEnd="20dp"
+                            app:srcCompat="@drawable/mvidio"
+                            tools:ignore="MissingConstraints" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/white"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="125dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginEnd="20dp"
+                            app:srcCompat="@drawable/megafon"
+                            tools:ignore="MissingConstraints" />
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="125dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginEnd="20dp"
+                            app:srcCompat="@drawable/magnum"
+                            tools:ignore="MissingConstraints" />
+
+                        <ImageView
+                            android:layout_width="114dp"
+                            android:layout_height="125dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginEnd="20dp"
+                            app:srcCompat="@drawable/dixy_logosvg"
+                            tools:ignore="MissingConstraints" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+
+
+</RelativeLayout>
